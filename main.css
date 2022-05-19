@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 4rem;
+  font-size: 4rem;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+  overflow: auto;
+}
+
+.container .animation {
+  height: 330px;
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.container .animation button {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid blue;
+  outline: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 1.1rem;
+  cursor: pointer;
+  bottom: 10px;
+  position: absolute;
+}
+
+.container .animation button:hover {
+  opacity: 0.8;
+}
+
+.container .animation button:active {
+  background-color: teal;
+  border: 1px solid teal;
+}
+
+.container .animation button.hide {
+  right: 10px;
+}
+
+.container .animation .svg {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  pointer-events: none;
+}
+/*# sourceMappingURL=main.css.map */
